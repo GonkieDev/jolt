@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0
 
-set jolt_c=https://github.com/zig-gamedev/zig-gamedev/blob/main/libs/zphysics/libs/JoltC/
+set jolt_c=https://raw.githubusercontent.com/zig-gamedev/zig-gamedev/refs/heads/main/libs/zphysics/libs/JoltC
 
 :: Delete all .cpp and .h files
 del /q "*.cpp"
